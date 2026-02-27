@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Get a Quote | TruShine Exterior Care</title>
+  <meta name="description" content="Request a quote for window cleaning and exterior care in San Antonio, TX." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <div class="brand-mark"><img src="assets/img/logo.png" alt="TruShine logo"></div>
+        <span>TruShine</span>
+      </a>
+      <nav class="nav-links">
+        <a class="pill" href="index.html">Home</a>
+        <a class="pill" href="services.html">Services</a>
+        <a class="pill" href="about.html">About</a>
+        <a class="pill active" href="contact.html">Contact</a>
+        <a class="btn primary small" href="contact.html">Get a Quote →</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="kicker">Contact</div>
+      <h1>Get a Free Quote</h1>
+      <p class="p">Send a quick message and we’ll respond with pricing and next steps.</p>
+
+      <div class="section tight">
+        <div class="split">
+          <div class="card">
+            <h3>Message Us</h3>
+
+            <!-- This is a simple “mailto” form (no backend).
+                 If you want a real form (free), we can add Formspree later. -->
+            <form class="form" action="mailto:info@trushineexteriors.com" method="post" enctype="text/plain">
+              <input class="input" name="name" placeholder="Your name" required>
+              <input class="input" name="email" placeholder="Your email" type="email" required>
+              <input class="input" name="phone" placeholder="Phone (optional)">
+              <textarea class="input" name="message" placeholder="What do you need cleaned? (windows, screens, etc.)" required></textarea>
+              <button class="btn primary" type="submit">Send Request →</button>
+            </form>
+          </div>
+
+          <div class="card">
+            <h3>Service Area</h3>
+            <p class="p">San Antonio, TX</p>
+            <p class="p" style="margin-top:10px;">
+              Email: <a href="mailto:info@trushineexteriors.com">info@trushineexteriors.com</a>
+            </p>
+            <p class="p" style="margin-top:10px;">
+              Hours: Mon–Sat (by appointment)
+            </p>
+
+            <div style="margin-top:16px;">
+              <a class="btn" href="services.html">View Services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="copy">© <span id="y"></span> TruShine Exterior Care. All rights reserved.</div>
+    </div>
+  </footer>
+  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
